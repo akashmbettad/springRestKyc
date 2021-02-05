@@ -1,4 +1,4 @@
-package com.allianz.clara.bff;
+package com.luv2code.demo;
 import java.util.Date;  
 public class User   
 {  
