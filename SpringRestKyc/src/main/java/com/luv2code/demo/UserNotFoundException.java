@@ -1,4 +1,4 @@
-package com.allianz.clara.bff;
+package com.luv2code.demo;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
