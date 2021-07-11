@@ -29,14 +29,14 @@ public class Amazons3SDKFileUpload {
 		// this example to work
 		AWSCredentials credentials = new BasicAWSCredentials(
 				"AKIAWKOLEE3IJ7E4L6ZJ", 
-				"W4kdQW8beoVXDEKfr3HdUnjm8ulYj/KlWQgUGQ3W");
+				"W4kdQW8btoVXDEKfr3HdUnjm8ulYj/KlWQgG633W");
 
 		try {
 			// create a client connection based on credentials
 			AmazonS3 s3client = new AmazonS3Client(credentials);
 
 			// create bucket - name must be unique for all S3 users
-			String bucketName = "scanmykyc-ab";
+			String bucketName = "scanmykyc-ty";
 			// s3client.createBucket(bucketName);
 
 			// list buckets
