@@ -39,12 +39,12 @@ public class AmazonS3ClientServiceImpl {
 
 	AWSCredentials credentials = new BasicAWSCredentials(
 			"AKIAWKOLEE3IJ7E4L6ZJ", 
-			"W4kdQW8beoVXDEKfr3HdUnjm8ulYj/KlWQgUGQ3W");
+			"W4kdQWGheoVXDEKfr3HdUnjm8ulYj/KlWQgRGQ3W");
 
 
 	private AmazonS3 s3client=new AmazonS3Client(credentials);
 	
-	String defaultBucketName = "scanmykyc-ab";
+	String defaultBucketName = "scanmykyc-ty";
 
 	private final long EXPIRATION_TIME = 1000 * 60 * 60;
 
